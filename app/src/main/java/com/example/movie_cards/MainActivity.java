@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(String name, int price, int quantity, boolean hasFineCream, boolean hasChocolate, boolean hasWhippedCream, String currentDateAndTime) {
         String orderMessage = "NEDDY'S COFFEE" + "\n" + "Name: " + name;
+        //items available
         if (hasWhippedCream){
             orderMessage +="/n" + "With Whipped cream";
         }
